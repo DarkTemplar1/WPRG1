@@ -4,7 +4,7 @@
 
 Wykorzystując język znaczników HTML, utwórz poniżej dokument, który będzie wyglądał następująco: 
 
-[![](assets/zad1.png)](assets/zad1.png)
+[![](assets/zad1.png)](assets/zad1.png[Exercises_01.md](Exercises_01.md))
 
 **Zadanie 2** (X pkt)
 
