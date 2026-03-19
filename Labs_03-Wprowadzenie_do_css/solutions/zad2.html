@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zadanie 2</title>
+  <style>
+    #lista1 > li {
+      font-weight: bold;
+    }
+
+    #lista2 {
+      list-style-type: decimal;
+      color: red;
+    }
+
+    #lista2 > li > ul {
+      list-style-type: lower-alpha;
+      color: green;
+      font-weight: bold;
+    }
+
+    #lista2 > li > ul > li > ul {
+      list-style-type: square;
+      color: blue;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+
+<ul id="lista1">
+  <li>Punkt 1</li>
+  <li>Punkt 2
+    <ul>
+      <li><strong>Podpunkt 2a</strong></li>
+      <li><strong>Podpunkt 2b</strong>
+        <ul>
+          <li>Podpunkt 2b-1</li>
+          <li>Podpunkt 2b-2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Punkt 3</li>
+  <li>Punkt 4
+    <ul>
+      <li><strong>Podpunkt 4a</strong></li>
+      <li><strong>Podpunkt 4b</strong></li>
+    </ul>
+  </li>
+  <li>Punkt 5</li>
+</ul>
+
+<ol id="lista2">
+  <li>Punkt 1</li>
+  <li>Punkt 2
+    <ul>
+      <li>Podpunkt 2a</li>
+      <li>Podpunkt 2b
+        <ul>
+          <li>Podpunkt 2b-1</li>
+          <li>Podpunkt 2b-2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Punkt 3</li>
+  <li>Punkt 4
+    <ul>
+      <li>Podpunkt 4a</li>
+      <li>Podpunkt 4b</li>
+    </ul>
+  </li>
+  <li>Punkt 5</li>
+</ol>
+
+</body>
+</html>

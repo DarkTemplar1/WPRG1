@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 5</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="imie">Imię:</label>
+    <input type="text" id="imie" name="imie"><br>
+
+    <label for="kolor">Ulubiony kolor:</label>
+    <input list="kolory" id="kolor" name="kolor">
+    <datalist id="kolory">
+      <option value="Czerwony">
+      <option value="Niebieski">
+      <option value="Zielony">
+      <option value="Żółty">
+      <option value="Różowy">
+      <option value="Pomarańczowy">
+      <option value="Fioletowy">
+      <option value="Czarny">
+      <option value="Biały">
+    </datalist>
+    <button type="submit">Zapisz</button>
+  </form>
+
+  <br><br>
+
+  <form action="#" method="post">
+    <label for="wartosc">Wartość:</label>
+    <input type="range" id="wartosc" name="wartosc" min="0" max="100" value="50">
+    <br>
+    <button type="submit">Wyślij</button>
+  </form>
+
+  <br><br>
+
+  <form action="#" method="post">
+    <label for="aktualny">Aktualny postęp:</label>
+    <progress id="aktualny" value="60" max="100"></progress><br>
+
+    <label for="calkowity">Całkowity postęp:</label>
+    <meter id="calkowity" value="80" min="0" max="100"></meter><br>
+
+    <button type="submit">Wyślij</button>
+  </form>
+
+  <br><br>
+
+  <form action="#" method="post">
+    <label for="nazwisko">Imię i nazwisko:</label>
+    <input type="text" id="nazwisko" name="nazwisko">
+    <input type="hidden" name="ukryte_pole" value="dowolna_wartosc">
+    <br><br>
+    <button type="submit">Wyślij</button>
+  </form>
+</body>
+</html>

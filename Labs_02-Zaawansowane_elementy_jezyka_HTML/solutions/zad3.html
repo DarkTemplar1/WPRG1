@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 3</title>
+</head>
+<body>
+  <h1>Travel reservation form</h1>
+  <p><b>* denotes mandotory</b></p>
+
+  <form action="#" method="post">
+    <label for="fullname">Full name*:</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="FirstName LastName" required><br>
+
+    <label for="email">Email address*:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="package">Select Tour Package* :</label><br>
+    <select id="package" name="package" required>
+      <option selected>Goa</option>
+      <option>Kerala</option>
+      <option>Manali</option>
+      <option>Kashmir</option>
+    </select><br>
+
+    <label for="arrival">Arrival date*:</label><br>
+    <input type="date" id="arrival" name="arrival" required><br>
+
+    <label for="persons">Number of persons*:</label><br>
+    <input type="number" id="persons" name="persons" min="1" required><br>
+
+    <label>What would you want to avail?*</label><br>
+    <label>Boarding <input type="checkbox" name="services" value="boarding"></label><br>
+    <label>Fooding <input type="checkbox" name="services" value="fooding"></label><br>
+    <label>Sight seeing <input type="checkbox" name="services" value="sight_seeing"></label><br>
+
+    <label for="coupon">Discount Coupon code:</label><br>
+    <input type="text" id="coupon" name="coupon"><br>
+
+    <label>Terms and conditions*</label><br>
+    <label><input type="radio" name="terms" value="agree" checked required> I agree</label>
+    <label><input type="radio" name="terms" value="disagree"> I disagree</label><br><br>
+
+    <button type="submit">Complete reservation</button>
+  </form>
+</body>
+</html>

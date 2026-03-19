@@ -1,0 +1,33 @@
+1. TŁO NAGŁÓWKA - białe z 50% przezroczystością
+   Styl: background-color: rgba(255, 255, 255, 0.5);
+
+2. KOLOR ODWIEDZONYCH LINKÓW - stonowany fiolet
+   Styl: a:visited { color: #937393; }
+
+3. NAGŁÓWEK H1 - fioletowy
+   Styl: h1 { color: #993399; }
+
+4. NAGŁÓWKI H2 - jasnobrązowy
+   Styl: h2 { color: #cc6600; }
+
+5. TŁO CAŁEJ STRONY - jasnozielone
+   Styl: body { background-color: #d2dc9d; }
+
+6. KOLOR LINKÓW - taki sam fiolet jak h1
+   Styl: a { color: #939; }
+   Opis: Skrócony zapis #939 = #993399, identyczny jak kolor h1.
+         Dzięki temu linki i główny nagłówek mają spójny kolor.
+
+7. STAN NAJECHANIA I AKTYWNY LINKU - hover i focus
+   Styl: a:hover, a:focus { color: #c700f2; background-color: #fff; }
+
+8. KLIKNIĘCIE MYSZĄ LUB DOTKNIĘCIE - active
+   Styl: a:active { color: #ff00ff; background-color: #fff; }
+
+9. OBRAZ TŁA STRONY - bullseye.png
+   Styl: body { background-image: url(bullseye.png); }
+
+10. OBRAZ TŁA NAGŁÓWKA - purpledot.png, tylko poziomo
+    Styl: header { background-image: url(purpledot.png); background-repeat: repeat-x; }
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 4</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <label for="title">Title *</label><br>
+    <input type="text" id="title" name="title" size="80" required><br><br>
+
+    <label for="date">Date</label><br>
+    <input type="date" id="date" name="date"><br>
+    <p>Date-only description.</p>
+
+    <fieldset>
+      <legend><b>DATE/TIME</b></legend>
+      <input type="date" name="datetime_date">
+      <input type="time" name="datetime_time">
+      <p>Date and time description.</p>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend><b>DATE RANGE</b></legend>
+      <fieldset>
+        <legend><b>START DATE</b></legend>
+        <input type="date" name="start_date">
+        <input type="time" name="start_time">
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>END DATE</b></legend>
+        <input type="date" name="end_date">
+        <input type="time" name="end_time">
+      </fieldset>
+      <p>Date range description.</p>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend><b>DATE/TIME LIST</b></legend>
+      <select name="year">
+        <option>Year</option>
+        <option>2026</option>
+        <option>2027</option>
+      </select>
+      <select name="month">
+        <option>Month</option>
+        <option>January</option>
+        <option>February</option>
+      </select>
+      <select name="day">
+        <option>Day</option>
+        <option>1</option>
+        <option>2</option>
+      </select>
+      <select name="hour">
+        <option>Hour</option>
+        <option>10</option>
+        <option>11</option>
+      </select>
+      <select name="minute">
+        <option>Minute</option>
+        <option>00</option>
+        <option>30</option>
+      </select>
+      <p>Date / time list description.</p>
+    </fieldset>
+  </form>
+</body>
+</html>
