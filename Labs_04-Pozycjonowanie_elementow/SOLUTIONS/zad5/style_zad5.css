@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flaga {
+    width: 100%;
+}
+
+.biel {
+    background-color: #ffffff;
+    height: 150px;
+}
+
+.czerwien {
+    background-color: #ff0000;
+    height: 150px;
+    position: relative;
+}
+
+.czerwien span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orange;
+    font-style: italic;
+    font-size: 1.1em;
+}

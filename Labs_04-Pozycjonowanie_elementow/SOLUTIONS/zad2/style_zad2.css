@@ -1,0 +1,53 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a5c38;
+    letter-spacing: 10px;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.karta {
+    width: 360px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #aaa;
+}
+
+.naglowek {
+    background-color: #1a5c38;
+    color: #ffffff;
+    padding: 12px 18px;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.tresc {
+    background-color: #ffffff;
+    padding: 10px 18px;
+}
+
+.adres {
+    text-align: right;
+    color: #1a5c38;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.email {
+    color: #1a5c38;
+    font-style: italic;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.telefon {
+    color: #333333;
+    margin: 8px 0;
+}
